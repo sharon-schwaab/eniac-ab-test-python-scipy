@@ -32,7 +32,7 @@ It investigates:
 - whether the experiment had enough statistical power,
 - and whether Eniac should actually replace its current button.
 
-![CTR per version with 95% confidence interval](images/ctr_confidence_intervals.png)
+![CTR per version with 95% confidence interval](images/output_ctr.png)
 
 ---
 
@@ -209,8 +209,8 @@ To control the increased false-positive risk from multiple comparisons, a **Bonf
 \]
 
 <p align="center">
-  <img src="images/pairwise_pvalues_heatmap.png" width="48%" alt="Pairwise p-values heatmap">
-  <img src="images/power_curve.png" width="48%" alt="Required test duration by effect size">
+  <img src="images/output_pairwise_p-values.png" width="48%" alt="Pairwise p-values heatmap">
+  <img src="images/output_required_test_duration_by_effect_size.png" width="48%" alt="Required test duration by effect size">
 </p>
 
 ---
@@ -236,7 +236,7 @@ Two additional metrics were therefore considered:
 - **Drop-off rate**
 - **Homepage-return rate**
 
-![Additional metrics](images/additional_metrics.png)
+![Additional metrics](images/output_dropoff_homepagereturn.png)
 
 These metrics were used as supporting evidence when comparing the two strongest variants, A and C.
 
